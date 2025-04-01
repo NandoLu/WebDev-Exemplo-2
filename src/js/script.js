@@ -34,3 +34,20 @@ let exemplo6 = ["um", "dois", "tres"];
 console.log(typeof exemplo6)
 
 // CONVERSOES
+
+// float > inteiro 
+let numFloat = 123.123;
+console.log(parseInt(numFloat));
+
+let numString = "345.345";
+console.log(parseFloat(numString));
+
+numFloat = parseInt(numFloat);
+console.log(numFloat)
+
+let numFloat1 = 566.565;
+console.log(numFloat1.toString());
+
+let numInt = 100;
+numInt = numInt.toString();
+console.log(numInt);
