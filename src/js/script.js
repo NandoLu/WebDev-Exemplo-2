@@ -129,11 +129,54 @@
 
 //condição terraria
 
-let valor2 =301;
+// let valor2 =301;
 
-let resultado = valor2 == 300 ? "Certo":"Errado";
-console.log(resultado)
+// let resultado = valor2 == 300 ? "Certo":"Errado";
+// console.log(resultado)
 
-let zero = 0
-let verificacao = zero == 0 ? "É zero ": "é não"
-console.log(verificacao)
+// let zero = 0
+// let verificacao = zero == 0 ? "É zero ": "é não"
+// console.log(verificacao)
+
+// switch case
+
+// let time = "Santos";
+
+// switch(time){
+//     case "Santos":
+//         console.log("melhor time")
+//         break;
+//     case "Sao Paulo":
+//         console.log("Dá demais")
+//         break;
+//     case "Palmeiras":
+//         console.log("Não em Mundial")
+//         break;
+//     default:
+//         console.log("Nenhuma das opções")
+// }
+
+// Estrutura de laço de repetição
+// declaracao ; operacao ; incremento
+// for(let i=0; i<=10; i++){
+//     console.log("O valor de I é:", i)
+//     console.log("Santos é o maior time da terra")
+// }
+
+// WHILE
+let w = 0;
+
+while(w<=10){
+    console.log("O valor de w é: ", w)
+    w++;
+}
+
+// do while
+
+let z = 10;
+
+do {
+    console.log("Do while é:", z)
+    z++;
+} while(z <= 100)
+
